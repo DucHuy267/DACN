@@ -98,7 +98,7 @@ const AdminPage = () => {
             <div className="sidebar">
                 <div className="logo-header">
                     <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKVT29aD5GiiyNvC-qcl_1-8mldGfUXZSX-A&s"
+                        src="https://scontent.fsgn19-1.fna.fbcdn.net/v/t39.30808-6/305571564_193544796366297_2042317215963346782_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeH74gB4_opNdQdc7wvDuMrTbwuPsUZGyeJvC4-xRkbJ4iu59Zb2V9QmEzPpIhkx0JccbC60nf416fM5qSZrSJYo&_nc_ohc=HEQUu7tXGSMQ7kNvgFZspzM&_nc_zt=23&_nc_ht=scontent.fsgn19-1.fna&_nc_gid=AQPjWCfhEUkcp9rdUsvq6lg&oh=00_AYCUm74DAwxIBjA29c5GQJCNAWUapLewTUiVtwTfw19xOg&oe=672DA2A5"
                         alt="logo"
                         className="logo-image"
                     />

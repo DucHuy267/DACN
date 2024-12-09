@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button, message, Card, Modal, Spin } from 'antd';
-import { LeftOutlined, ShoppingOutlined } from '@ant-design/icons';
+import { ShoppingOutlined } from '@ant-design/icons';
 import { useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
 import HomePageHeader from '../../components/HeaderComponents/HomePageHeader';
@@ -91,9 +91,6 @@ const ProductsPage = () => {
     return (
         <div>
             <HomePageHeader />
-            <Button onClick={() => navigate(-1)} style={{ marginTop: '5px', marginLeft: '15px' }}>
-                        <LeftOutlined />
-                    </Button>
             {loading ? (
                 <Spin size="large" />
             ) : (

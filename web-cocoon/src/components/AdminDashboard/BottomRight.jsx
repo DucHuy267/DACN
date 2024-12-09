@@ -1,49 +1,61 @@
-import React, { useEffect, useState } from "react";
-import { getAllUsers } from "../../services/UserSevices";
+import React from "react";
 
 function BottomRight() {
-    const [users, setUsers] = useState([]);
-    const [error, setError] = useState(null); // Để lưu lỗi khi xảy ra
-
-    const fetchUsers = async () => {
-        try {
-            const data = await getAllUsers(); // Dữ liệu trả về từ API
-            setUsers(data);
-        } catch (error) {
-            setError("Failed to load users. Please try again later.");
-        }
-    };
-
-    useEffect(() => {
-        fetchUsers();
-    }, []);
-
     return (
         <div className="BottomRight">
             <div className="bottomlefttop">
-                <h2 style={{marginLeft: 10}}>Recent Activity</h2>
+                <h2>Resent Activity</h2>
+
                 <div>
                     See All
-                    <span className="material-symbols-outlined">arrow_forward</span>
+                    <span class="material-symbols-outlined">arrow_forward</span>
                 </div>
             </div>
 
-            {/* Hiển thị danh sách người dùng */}
-            {error ? (
-                <p>{error}</p>
-            ) : users.length > 0 ? (
-                users.map((user) => (
-                    <div className="bottomrightcard" key={user.id}>
-                        <img src="https://static.vecteezy.com/system/resources/thumbnails/002/002/403/small/man-with-beard-avatar-character-isolated-icon-free-vector.jpg" alt="User Avatar" />
-                        <div>
-                            <h4>{user.name}</h4>
-                            <p>{user.phone}</p>
-                        </div>
-                    </div>
-                ))
-            ) : (
-                <p>Loading recent activity...</p>
-            )}
+            <div className="bottomrightcard">
+                <img src="https://picsum.photos/600" alt="" />
+                <div>
+                    <h4>Ola Martha</h4>
+                    <p>Ordered a new plants</p>
+                </div>
+                <p>2 min ago</p>
+            </div>
+
+            <div className="bottomrightcard">
+                <img src="https://picsum.photos/700" alt="" />
+                <div>
+                    <h4>Ann Bloom</h4>
+                    <p>Ordered a new plants</p>
+                </div>
+                <p>5 min ago</p>
+            </div>
+
+            <div className="bottomrightcard">
+                <img src="https://picsum.photos/800" alt="" />
+                <div>
+                    <h4>Bianca Beatrix</h4>
+                    <p>Ordered a new plants</p>
+                </div>
+                <p>5 min ago</p>
+            </div>
+
+            <div className="bottomrightcard">
+                <img src="https://picsum.photos/900" alt="" />
+                <div>
+                    <h4>Ali Kemal</h4>
+                    <p>Ordered a new plants</p>
+                </div>
+                <p>7 min ago</p>
+            </div>
+
+            <div className="bottomrightcard">
+                <img src="https://picsum.photos/1000" alt="" />
+                <div>
+                    <h4>Alice Anges</h4>
+                    <p>Ordered a new plants</p>
+                </div>
+                <p>32 min ago</p>
+            </div>
         </div>
     );
 }

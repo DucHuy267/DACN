@@ -6,7 +6,13 @@ import { useNavigate } from "react-router-dom";
 import { getUserById } from "../../services/UserSevices"; // Sửa tên service
 import { getAllCategory } from "../../services/CategorySevices";
 import { getAllProduct, getProductByCate, searchProduct } from "../../services/ProductServices";
-import { TextHeader, WrapperHeader, AccoutHeader, ContentPopup, Span,} from "./style";
+import {
+  TextHeader,
+  WrapperHeader,
+  AccoutHeader,
+  ContentPopup,
+  Span,
+} from "./style";
 import DrawerComponent from "../../components/DrawerComponent/DrawerComponent";
 import { jwtDecode } from "jwt-decode";
 
@@ -134,7 +140,7 @@ const HomePageHeader = () => {
         <Col span={7} style={{ padding: "18px 0px" }}>
           <Search placeholder="Search" allowClear style={{ padding: "0px 50px" }} onSearch={handleSearch} />
         </Col>
-        <Col span={7}>
+        <Col span={8}>
           <img
             width={165}
             src="https://cocoonvietnam.com/_nuxt/img/logo.f502f17.svg"
@@ -151,7 +157,7 @@ const HomePageHeader = () => {
             Giỏ Hàng
           </TextHeader>
         </Col>
-        <Col span={4} style={{ padding: "18px 0px" }}>
+        <Col span={3} style={{ padding: "18px 0px" }}>
           <AccoutHeader>
             <div>
               <img

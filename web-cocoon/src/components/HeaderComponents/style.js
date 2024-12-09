@@ -2,7 +2,7 @@ import { Row } from "antd";
 import { styled } from "styled-components";
 
 export const WrapperHeader = styled(Row)`
-    padding: 0px 20px 0px 40px;
+    padding: 0px 60px;
     background-color:#fefbf4;background-color:#fefbf4;
     border-bottom: 1px solid #ede0cc;
 `

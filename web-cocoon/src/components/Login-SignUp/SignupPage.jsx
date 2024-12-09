@@ -11,7 +11,7 @@ function SignupPage() {
     email: '',
     name: '',
     phone: '',
-    // address:'',
+    address: '',
     password: '',
   });
 
@@ -68,10 +68,10 @@ function SignupPage() {
               <label htmlFor="phone">Phone</label>
               <Input type="text" id="phone" placeholder="Enter Phone" required style={{ height: '40px' }} onChange={handleChange} />
             </div>
-            {/* <div className="form-group">
+            <div className="form-group">
               <label htmlFor="address">Address</label>
               <Input type="text" id="address" placeholder="Enter Address" required style={{ height: '40px' }} onChange={handleChange} />
-            </div> */}
+            </div>
             <div className="form-group">
               <label htmlFor="password">Password</label>
               <Input.Password id="password" placeholder="Enter Password" required style={{ height: '40px' }} onChange={handleChange} />
