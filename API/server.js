@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const productRouters = require('./routers/productRouters');
 const categoryRouters = require('./routers/categoryRouters');
 const userRouters = require('./routers/userRouters');
@@ -11,12 +12,15 @@ const dotenv = require("dotenv");
 const session = require("express-session");
 const jwt = require("jsonwebtoken");
 
-// Serve static files from React app
-// app.use(express.static(path.join(__dirname, 'build')));
+// Khởi tạo express app
+const app = express();
 
-require("./config/passport")
+// Đọc cấu hình từ file .env
 dotenv.config();
 
+require("./config/passport")
+
+// Kết nối tới MongoDB
 const connectDB = async () => {
     try {
         await mongoose.connect('mongodb://localhost:27017/cocoon_original');
@@ -25,81 +29,86 @@ const connectDB = async () => {
         console.error('Error connecting to MongoDB', err);
         process.exit(1);
     };
-}
-
-const app = express();
-app.use(
-  session({
-    secret: "afhgfhfdhgfh123213",
-    resave: false,
-    saveUninitialized: false,
-    cookie: { secure: process.env.NODE_ENV === "production" },
-  })
-);
-
-app.use(cors());
-app.use(passport.initialize());
-app.use(passport.session());
-const port = 4000;
+};
 
 connectDB();
 
-// Middleware to parse JSON requests
+// Cấu hình session
+app.use(
+    session({
+        secret: "afhgfhfdhgfh123213",
+        resave: false,
+        saveUninitialized: false,
+        cookie: { secure: process.env.NODE_ENV === "production" },
+    })
+);
+
+// Các middleware
+app.use(cors());
+app.use(passport.initialize());
+app.use(passport.session());
+
+// Cấu hình port
+const port = 4000;
+
+// Middleware để parse JSON
 app.use(express.json());
 
-// Sử dụng các routes cho sản phẩm và danh mục
+// Serve các file tĩnh của React (nếu có)
+app.use(express.static(path.join(__dirname, 'build')));
+
+// Định nghĩa các routes
 app.use('/products', productRouters);
 app.use('/categories', categoryRouters);
 app.use('/users', userRouters);
 app.use('/carts', cartRouters);
 app.use('/orders', orderRouters);
 
-// Social authentication routes
+// Các route cho Facebook và Google authentication
 app.get(
     "/auth/facebook",
     passport.authenticate("facebook", {
-      scope: ["public_profile", "email"], // Thêm cả public_profile
+      scope: ["public_profile", "email"],
     })
-  );
-  
-  app.get(
+);
+
+app.get(
     "/auth/facebook/callback",
     passport.authenticate("facebook", {
       failureRedirect: "http://localhost:3000/login?error=true",
       session: false,
     }),
     (req, res) => {
-      // Tạo JWT token
-      const token = jwt.sign({ userId: req.user._id }, "afhgfhfdhgfh123213", {
+      const token = jwt.sign({ userId: req.user._id }, process.env.JWT_SECRET || 'default_secret', {
         expiresIn: "1h",
       });
       res.redirect(`http://localhost:3000/login?token=${token}`);
     }
-  );
-  // Google Authentication Routes
-  app.get(
+);
+
+app.get(
     "/auth/google",
     passport.authenticate("google", {
       scope: ["profile", "email"],
       prompt: "select_account consent",
     })
-  );
-  
-  app.get(
+);
+
+app.get(
     "/auth/google/callback",
     passport.authenticate("google", {
       failureRedirect: "http://localhost:3000/login?error=true",
       session: false,
     }),
     (req, res) => {
-      const token = jwt.sign({ userId: req.user._id }, "afhgfhfdhgfh123213", {
+      const token = jwt.sign({ userId: req.user._id }, process.env.JWT_SECRET || 'default_secret', {
         expiresIn: "1h",
       });
       res.redirect(`http://localhost:3000/login?token=${token}`);
     }
-  );
+);
 
+// Lắng nghe port
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
 });
-
