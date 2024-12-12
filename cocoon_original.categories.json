@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "67029cfe2dfca3c6536a51f8"
+  },
+  "categoryId": "1",
+  "categoryName": "Face",
+  "image": "https://i.pinimg.com/736x/ff/93/fa/ff93faaef42f5541d813ff509dd54df6.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029cfe2dfca3c6536a51f9"
+  },
+  "categoryId": "2",
+  "categoryName": "Hair",
+  "image": "https://i.pinimg.com/736x/a5/d5/eb/a5d5ebe14d3d3173382d022a671ccaf0.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029cfe2dfca3c6536a51fa"
+  },
+  "categoryId": "3",
+  "categoryName": "Body",
+  "image": "https://i.pinimg.com/474x/3d/29/f0/3d29f071a15ca08c0f6d279ab92b308b.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029cfe2dfca3c6536a51fb"
+  },
+  "categoryId": "4",
+  "categoryName": "Lip",
+  "image": "https://i.pinimg.com/736x/32/6e/df/326edfd28b31698caf8865b3da370c49.jpg"
+}]

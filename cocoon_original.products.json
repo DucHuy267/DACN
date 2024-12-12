@@ -1,0 +1,309 @@
+[{
+  "_id": {
+    "$oid": "67029e5e2dfca3c6536a51fc"
+  },
+  "name": "Sữa chống nắng bí đao 50ml",
+  "description": "Kết hợp các màng lọc thế hệ mới, chiết xuất bí đao, Synoxyl AZ và Melanin, sữa chống nắng bí đao giúp bảo vệ da trước tia UVA, UVB và ánh sáng năng lượng cao nhìn thấy được.",
+  "price": 439000,
+  "quantity": 10,
+  "categoryId": "1",
+  "imageUrl": "https://i.pinimg.com/736x/cd/f7/be/cdf7be1333890897878170f51bbfeef9.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029e5e2dfca3c6536a51fd"
+  },
+  "name": "Nước tẩy trang hoa hồng 310ml",
+  "description": "Một công thức có tỉ lệ cân bằng từ nước cất hoa hồng hữu cơ, vitamin B5 và astaxanthin hoà quyện trong hệ nhũ hoá siêu nhỏ giúp tẩy sạch lớp trang điểm lâu trôi chỉ trong một bước, hỗ trợ cấp ẩm, làm mềm và làm dịu, mang lại làn da sạch sẽ và tươi mới.",
+  "price": 245000,
+  "quantity": 10,
+  "categoryId": "1",
+  "imageUrl": "https://i.pinimg.com/736x/02/a5/71/02a5718b5309db4f831754e0aaf505bb.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029e5e2dfca3c6536a51fe"
+  },
+  "name": "Gel bí đao rửa mặt 140ml",
+  "description": "Với các thành phần gồm bí đao, rau má, tràm trà, bổ sung thêm Vitamin B3, B5 và Betaine. Gel bí đao có pH 5.5 giúp làm sạch sâu bụi bẩn và dầu thừa, làm giảm việc hình thành mụn mà vẫn giữ được độ ẩm mịn tự nhiên và không gây khô da sau khi sử dụng.",
+  "price": "195.00",
+  "quantity": 10,
+  "categoryId": "1",
+  "imageUrl": "https://i.pinimg.com/736x/a0/7b/ac/a07bacbd2a42d7631e2807fca1a1bb06.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029e5e2dfca3c6536a51ff"
+  },
+  "name": "Cà phê Đắk Lắk làm sạch da chết mặt 150ml",
+  "description": "Những hạt cà phê Đắk Lắk xay nhuyễn giàu cafeine hòa quyện với bơ cacao Tiền Giang giúp bạn loại bỏ lớp tế bào chết già cỗi và xỉn màu, đánh thức làn da tươi mới đầy năng lượng cùng cảm giác mượt mà và mềm mịn lan tỏa.",
+  "price": 120000,
+  "quantity": 15,
+  "categoryId": "1",
+  "imageUrl": "https://i.pinimg.com/474x/2b/bd/54/2bbd54e330c144146e11c7af90a54e73.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029e5e2dfca3c6536a5200"
+  },
+  "name": "Mặt nạ nghệ Hưng Yên 30ml",
+  "description": "Mặt nạ từ tinh bột nghệ giàu Curcuminoid kết hợp với Vitamin B3 và chiết xuất yến mạch rất phù hợp cho làn da xỉn màu và có nhiều vết thâm. Sau khi rửa đi lớp mặt nạ, bạn sẽ nhìn thấy một làn da tươi mới, sáng rạng rỡ và đều màu.",
+  "price": 95000,
+  "quantity": 30,
+  "categoryId": "4",
+  "imageUrl": "https://i.pinimg.com/736x/85/b6/04/85b6041a8f4f950ad3807c30264faf1a.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029e5e2dfca3c6536a5201"
+  },
+  "name": "Nước sen Hậu Giang 140ml",
+  "description": "Khai thác sức mạnh từ những đoá sen tinh khiết từ vùng đất Hậu Giang kết hợp cùng các hoạt chất khoa học tiên tiến gồm Madecassoside, vitamin B5, B12, Beta-glucan (prebiotic) và Sweetone® (chiết xuất quả ngũ vị tử), nước sen Hậu Giang dịu lành giúp bảo vệ hàng rào độ ẩm của làn da nhạy cảm, giảm mẩn đỏ và ngứa do khô ráp, mang lại cho làn da một cảm giác nhẹ nhàng, êm ái như được vỗ về.",
+  "price": "150.00",
+  "quantity": 20,
+  "categoryId": "2",
+  "imageUrl": "https://i.pinimg.com/736x/35/f1/42/35f142bb28b1d1e2b03897b474efc1ef.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029e5e2dfca3c6536a5202"
+  },
+  "name": "Nước bí đao cân bằng da 140ml",
+  "description": "Nhờ các thành phần gồm bí đao, rau má và tràm trà, nước bí đao với công thức không chứa cồn có tác dụng cân bằng pH, giảm dầu, làm sạch lỗ chân lông, cải thiện tình trạng mụn. Sản phẩm còn được bổ sung thêm Vitamin B3, HA và chiết xuất cam thảo giúp cấp ẩm cho làn da luôn mịn màng và giảm thiểu các vết đỏ trên da.",
+  "price": 175000,
+  "quantity": 25,
+  "categoryId": "3",
+  "imageUrl": "https://i.pinimg.com/736x/b8/1f/65/b81f65992a5271655fd4f4b180b99ba7.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029e5e2dfca3c6536a5203"
+  },
+  "name": "Nước nghệ Hưng Yên 140ml",
+  "description": "Được chiết xuất từ củ nghệ canh tác tại Hưng Yên, kết hợp với AHA và hoạt chất dưỡng ẩm betaine, nước nghệ cung cấp độ ẩm cần thiết, mang lại làn da sáng mịn và đều màu.",
+  "price": 135000,
+  "quantity": 18,
+  "categoryId": "2",
+  "imageUrl": "https://i.pinimg.com/736x/dd/38/9e/dd389e4a2e04125d6da54d849353395d.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029eb12dfca3c6536a5204"
+  },
+  "name": "Tinh chất nghệ Hưng Yên C10 30ml",
+  "description": "Dầu nghệ chiết xuất từ củ nghệ Hưng yên rất giàu turmerone, được xé nhỏ và lơ lửng trong một hỗn hợp kết cấu mọng nước chứa Vitamin B3, NAG và Vitamin C (3-o-ethyl ascorbic acid) tạo thành tinh chất nghệ có tác dụng chống oxy hóa mạnh mẽ giúp tăng cường khả năng làm sáng da, cải thiện làn da xỉn màu và làm mờ vết thâm.",
+  "price": 210000,
+  "quantity": 25,
+  "categoryId": "1",
+  "imageUrl": "https://i.pinimg.com/736x/99/05/12/9905127e1ace821990dfddc771fe742c.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029eb12dfca3c6536a5205"
+  },
+  "name": "Tinh chất hoa hồng 30ml",
+  "description": "Với kết cấu mọng nước, tinh chất hoa hồng sẽ thẩm thấu nhanh và mang các dưỡng chất ngậm nước đi sâu vào các tầng da, giúp dưỡng ẩm sâu, phục hồi những tổn thương do sự mất nước gây ra, đồng thời trả lại sự đầy đặn và tươi mới vốn có của làn da. Đây là cách nhanh nhất để da trở nên căng mọng và ẩm mịn.",
+  "price": 130000,
+  "quantity": 40,
+  "categoryId": "1",
+  "imageUrl": "https://i.pinimg.com/736x/9d/3a/6f/9d3a6f354832fa730f4300cfd6eda81f.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029eb12dfca3c6536a5206"
+  },
+  "name": "Thạch nghệ Hưng Yên 30ml",
+  "description": "Với kết cấu mỏng nhẹ, thạch nghệ Hưng Yên mang những dưỡng chất từ củ nghệ, curcuminoid và hexylresorcinol thấm nhanh vào da giúp làm sáng, chống oxi hoá và làm mờ vết thâm. Làn da trở nên mịn màng và đều màu trong thấy.",
+  "price": 160000,
+  "quantity": 20,
+  "categoryId": "1",
+  "imageUrl": "https://i.pinimg.com/736x/f4/8d/4f/f48d4f7a4345130a29707757085f01e8.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029eb12dfca3c6536a5207"
+  },
+  "name": "Thạch hoa hồng dưỡng ẩm 100ml",
+  "description": "Với kết cấu mọng nước mang nhiều dưỡng chất từ nước hoa hồng hữu cơ kết hợp với nam châm dưỡng ẩm Pentavitin, các axit amin và HA, thạch hoa hồng sẽ nuôi dưỡng và khóa ẩm suốt 24 giờ, mang lại làn da đầy đặn, mềm mượt và mịn màng.",
+  "price": 185000,
+  "quantity": 35,
+  "categoryId": "1",
+  "imageUrl": "https://i.pinimg.com/736x/56/4d/85/564d85e5fc17f7278f0ca13ba856e495.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029eb12dfca3c6536a5208"
+  },
+  "name": "Dầu gội bưởi không sulfate 500ml",
+  "description": "Từ tinh dầu vỏ bưởi Việt Nam truyền thống kết hợp với vitamin B5, hoạt chất dưỡng ẩm Xylishine™ cùng công thức dịu nhẹ không chứa sulfate, dầu gội bưởi giúp làm sạch tóc và giảm gãy rụng, mang lại mái tóc đen dày, chắc khoẻ và mượt mà",
+  "price": "145.00",
+  "quantity": 28,
+  "categoryId": "2",
+  "imageUrl": "https://i.pinimg.com/736x/a5/d5/eb/a5d5ebe14d3d3173382d022a671ccaf0.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029f202dfca3c6536a5209"
+  },
+  "name": "Nước dưỡng tóc tinh dầu bưởi 140ml",
+  "description": "Sản phẩm treatment dành cho tóc, phù hợp với tình trạng tóc rụng, tóc yếu, tóc thưa mỏng. Sản phẩm có thành phần từ tinh dầu bưởi Việt Nam truyền thống, Xylishine, Vitamin B5, Baicapil và Bisabolol. Nước dưỡng tóc tinh dầu bưởi giúp ngăn ngừa 60% nguyên nhân rụng tóc, làm gia tăng mật độ của tóc, từ đó giúp tóc dày lên trông thấy. Đồng thời, sản phẩm còn giúp nuôi dưỡng da đầu và cung cấp độ ẩm cho tóc.",
+  "price": "95.00",
+  "quantity": 50,
+  "categoryId": "2",
+  "imageUrl": "https://i.pinimg.com/736x/fd/da/bf/fddabf62641d91fc686fbb7494d3e096.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029f202dfca3c6536a520a"
+  },
+  "name": "Nước dưỡng tóc sa-chi 140ml",
+  "description": "Nước dưỡng từ dầu sa-chi kết hợp với HA và các axit amin sẽ bao phủ toàn bộ mái tóc giúp cấp ẩm nhanh, củng cố và bảo vệ lớp sừng của tóc, từ đó phục hồi hư tổn giúp tóc trở nên ẩm mềm, chắc khoẻ đầy sức sống",
+  "price": "120.00",
+  "quantity": 30,
+  "categoryId": "2",
+  "imageUrl": "https://i.pinimg.com/474x/7e/7a/db/7e7adb3aa43120ce30f162feaf14483d.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029f202dfca3c6536a520b"
+  },
+  "name": "Serum Sa-chi phục hồi tóc 70ml",
+  "description": "Bạn có biết tóc cần chất béo để khỏe mạnh? Dầu Sa-chi là loại dầu rất đặc biệt với hàm lượng chất béo không bão hòa lên đến 94% gồm Omega 3,6 và 9. Dầu sa-chi khi kết hợp cùng Vitamin E, tinh dầu hương nhu và Phospholipid sẽ tăng cường khả năng chống oxy hóa, cải thiện các sợi tóc hư tổn, bảo vệ tóc khỏi nhiệt và tia UV, giúp tóc luôn chắc khỏe tràn đầy sức sống.",
+  "price": "210.00",
+  "quantity": 25,
+  "categoryId": "2",
+  "imageUrl": "https://i.pinimg.com/736x/5c/55/33/5c553357dd45bac6de6491503365d1fa.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029f202dfca3c6536a520c"
+  },
+  "name": "Dầu xả bưởi 310ml",
+  "description": "Sự kết hợp hài hoà giữa tinh dầu bưởi Việt Nam truyền thống, vitamin B5 và hoạt chất dưỡng ẩm Xylishine™ đã tạo nên dầu xả bưởi giàu dưỡng chất giúp giảm gãy rụng và làm mềm từng sợi tóc, mang lại mái tóc mượt mà và nhẹ nhàng sau khi xả.",
+  "price": "85.00",
+  "quantity": 40,
+  "categoryId": "2",
+  "imageUrl": "https://i.pinimg.com/736x/65/98/a9/6598a9410faea3f30cbd495e6bec096a.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029f202dfca3c6536a520d"
+  },
+  "name": "Kem ủ tóc bưởi 200ml",
+  "description": "Kem ủ tóc với tinh dầu bưởi truyền thống Việt Nam, Vitamin B5 và Xylishine™ giúp giảm gãy rụng, cung cấp độ ẩm, mang lại sự mềm mại và chắc khoẻ cho sợi tóc.",
+  "price": "25.00",
+  "quantity": 100,
+  "categoryId": "2",
+  "imageUrl": "https://i.pinimg.com/736x/89/46/23/8946236daa639c3a92b7c1ae7de8cdf3.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029f202dfca3c6536a520e"
+  },
+  "name": "Đường thốt nốt An Giang làm sạch da chết cơ thể 200ml",
+  "description": "Hãy sẵn sàng trải nghiệm những tinh thể đường thốt nốt nhuyễn mịn kết hợp với nam châm dưỡng ẩm Pentavitin, phức hợp dầu chưng cất phân tử gồm Passioline và Soline giúp nhẹ nhàng cuốn trôi tế bào chết, mang lại làn da mượt mà, đồng thời dưỡng ẩm sâu và củng cố hàng rào tự nhiên của da.",
+  "price": "150.00",
+  "quantity": 35,
+  "categoryId": "3",
+  "imageUrl": "https://i.pinimg.com/736x/3c/38/64/3c3864719ee92820bd63bf1e0b858c74.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029f202dfca3c6536a520f"
+  },
+  "name": "Son dưỡng có màu 3g",
+  "description": "Son dưỡng có màu giúp làm mềm môi và mang lại màu sắc tự nhiên cho đôi môi.",
+  "price": 75000,
+  "quantity": 60,
+  "categoryId": "4",
+  "imageUrl": "https://i.pinimg.com/736x/6b/bb/f2/6bbbf2b1d6dd3b250d259d9e6b9120e0.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029f202dfca3c6536a5210"
+  },
+  "name": "Cà phê Đắk Lắk làm sạch da chết cơ thể 200ml",
+  "description": "Hạt cà phê nguyên chất từ Đắk Lắk kết hợp với bơ ca cao Tiền Giang giúp làm sạch da chết cơ thể hiệu quả, làm đều màu da, khơi dậy năng lượng giúp da trở nên mềm mịn và rạng rỡ.",
+  "price": "320.00",
+  "quantity": 20,
+  "categoryId": "3",
+  "imageUrl": "https://i.pinimg.com/736x/d7/78/04/d77804da70f950abc8bf0b7a9e049a4e.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029f202dfca3c6536a5211"
+  },
+  "name": "Gel tắm bí đao 310ml",
+  "description": "Giúp da sạch mịn màng và giảm mụn lưng. Tinh dầu sả chanh giảm mùi cơ thể, tạo cảm giác sảng khoái, thư giãn",
+  "price": "180.00",
+  "quantity": 30,
+  "categoryId": "3",
+  "imageUrl": "https://i.pinimg.com/736x/6b/fe/03/6bfe03d797187c2cf2d20bdb2ab1f4c1.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029f202dfca3c6536a5212"
+  },
+  "name": "Xà phòng rửa tay khuynh diệp & bạc hà hình chú thỏ 45g",
+  "description": "Với dầu dừa, Tinh chất khuynh diệp, Bạc hà và Vitamin E, xà phòng rửa tay tạo bọt nhẹ nhàng giúp làm sạch vi khuẩn, bảo vệ đôi tay luôn sạch sẽ, thơm tho.",
+  "price": "110.00",
+  "quantity": 25,
+  "categoryId": "3",
+  "imageUrl": "https://i.pinimg.com/736x/21/df/8c/21df8ca2f08a32c70ba9e4e642335cf1.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029f5c2dfca3c6536a5213"
+  },
+  "name": "Xịt thâm mụn lưng bí đao 140ml",
+  "description": "Bông tẩy trang mềm mại, Sản phẩm nổi bật với thiết kế vòi xịt 360 độ có khả năng hoạt động mọi góc độ cùng công thức treatment không cồn hoàn hảo: chiết xuất bí đao, 2% BHA & 5% AHA giúp làm sạch mụn, làm mờ vết thâm và hạn chế mụn mới hình thành.hợp cho việc tẩy trang, làm sạch và chăm sóc da hàng ngày.",
+  "price": "45.00",
+  "quantity": 150,
+  "categoryId": "3",
+  "imageUrl": "https://i.pinimg.com/736x/e6/5b/95/e65b952f4448e7385c8be6fad79e38cf.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029fc52dfca3c6536a5215"
+  },
+  "name": "Bơ dưỡng thể cà phê Đắk Lắk 200ml",
+  "description": "Dầu cà phê Đắk Lắk rất giàu cafein, kết hợp với dầu mù u và bơ cacao, tất cả hòa quyện nên một thể bơ sánh mịn giúp dưỡng ẩm, làm mềm và chống oxi hóa, mang lại làn da cơ thể luôn mượt mà, tươi mới rạng rỡ.",
+  "price": "200.00",
+  "quantity": 60,
+  "categoryId": "3",
+  "imageUrl": "https://i.pinimg.com/474x/3d/29/f0/3d29f071a15ca08c0f6d279ab92b308b.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029fc52dfca3c6536a5216"
+  },
+  "name": "Cà phê Đắk Lắk làm sạch da chết môi 5g",
+  "description": "Chúng tôi tự hào khi mang những hạt cà phê Đắk Lắk được rang xay bằng tay vào sản phẩm chăm sóc môi đặc biệt này, những hạt cà phê li ti hòa quyện vào dầu mắc-ca và bơ hạt mỡ sẽ nhẹ nhàng làm bong những tế bào da chết ở môi, đem lại làn môi mềm và mịn màng.",
+  "price": "150.00",
+  "quantity": 80,
+  "categoryId": "4",
+  "imageUrl": "https://i.pinimg.com/474x/6b/bb/f2/6bbbf2b1d6dd3b250d259d9e6b9120e0.jpg"
+},
+{
+  "_id": {
+    "$oid": "67029fc52dfca3c6536a5217"
+  },
+  "name": "Son dưỡng dầu dừa Bến Tre 5g",
+  "description": "Giúp đôi môi mềm mượt, căng mọng, chống khô môi, nứt nẻ do thời tiết.",
+  "price": 180000,
+  "quantity": 60,
+  "categoryId": "4",
+  "imageUrl": "https://i.pinimg.com/736x/32/6e/df/326edfd28b31698caf8865b3da370c49.jpg"
+},
+{
+  "_id": {
+    "$oid": "672e51cc990313fd19afd9b9"
+  },
+  "name": "Hoa",
+  "description": "hehehheheheh",
+  "price": 435,
+  "quantity": 1,
+  "categoryId": "6",
+  "imageUrl": "https://i.pinimg.com/736x/01/29/2a/01292a392415f4fcaf0370d54ceefffc.jpg",
+  "__v": 0
+}]
